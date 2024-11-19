@@ -34,7 +34,7 @@ playerName.innerHTML = "Player 1"
 
 p1btn.addEventListener("click", () => {
     if (p1input.value == "") {
-        errorOutput.innerHTML = "Please, Give a Number."
+        errorOutput.innerHTML = "Please, give a number."
     } else {
         if (Number(p1input.value)) {
 
@@ -50,11 +50,11 @@ p1btn.addEventListener("click", () => {
                 chancesCountDisplay()
             }
             else {
-                errorOutput.innerHTML = "please, Give a Number between 1-9"
+                errorOutput.innerHTML = "Please, give a number between 1-9"
             }
 
         } else {
-            errorOutput.innerHTML = "Please, Give a Number."
+            errorOutput.innerHTML = "Please, give a number."
         }
     }
 })
@@ -67,7 +67,7 @@ p1btn.addEventListener("click", () => {
 p2btn.addEventListener("click", () => {
 
     if (p2input.value == "") {
-        errorOutput.innerHTML = "Please, Give a Number."
+        errorOutput.innerHTML = "Please, give a number."
     } else {
         if (Number(p2input.value)) {
 
@@ -98,11 +98,11 @@ p2btn.addEventListener("click", () => {
                 }
 
             } else {
-                errorOutput.innerHTML = "please, Give a Number between 1-9"
+                errorOutput.innerHTML = "Please, give a number between 1-9"
             }
 
         } else {
-            errorOutput.innerHTML = "Please, Give a Number."
+            errorOutput.innerHTML = "Please, give a number."
         }
     }
 
@@ -116,7 +116,7 @@ p2btn.addEventListener("click", () => {
 p3btn.addEventListener("click", () => {
 
     if (p3input.value == "") {
-        errorOutput.innerHTML = "Please, Give a Number."
+        errorOutput.innerHTML = "Please, give a number."
     } else {
         if (Number(p3input.value)) {
 
@@ -147,11 +147,11 @@ p3btn.addEventListener("click", () => {
                 }
 
             } else {
-                errorOutput.innerHTML = "please, Give a Number between 1-9"
+                errorOutput.innerHTML = "Please, give a number between 1-9"
             }
 
         } else {
-            errorOutput.innerHTML = "Please, Give a Number."
+            errorOutput.innerHTML = "Please, give a number."
         }
     }
 
@@ -165,7 +165,7 @@ p3btn.addEventListener("click", () => {
 p4btn.addEventListener("click", () => {
 
     if (p4input.value == "") {
-        errorOutput.innerHTML = "Please, Give a Number."
+        errorOutput.innerHTML = "Please, give a number."
     } else {
         if (Number(p4input.value)) {
 
@@ -215,11 +215,11 @@ p4btn.addEventListener("click", () => {
                 }
 
             } else {
-                errorOutput.innerHTML = "please, Give a Number between 1-9"
+                errorOutput.innerHTML = "Please, give a number between 1-9"
             }
 
         } else {
-            errorOutput.innerHTML = "Please, Give a Number."
+            errorOutput.innerHTML = "Please, give a number."
         }
     }
 
