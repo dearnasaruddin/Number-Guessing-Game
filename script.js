@@ -2,7 +2,8 @@ let playerName = document.querySelector("h1");
 let errorOutput = document.querySelector("p");
 let result = document.querySelector(".result")
 let congimg = document.querySelector("img");
-congimg.style.maxWidth = "180px"
+congimg.style.maxWidth = "280px"
+congimg.style.padding = "0 50px"
 
 let p1input = document.querySelector(".p1input");
 let p2input = document.querySelector(".p2input");
@@ -33,7 +34,7 @@ playerName.innerHTML = "Player 1"
 
 p1btn.addEventListener("click", () => {
     if (p1input.value == "") {
-        errorOutput.innerHTML = "Please, Give a Number"
+        errorOutput.innerHTML = "Please, Give a Number."
     } else {
         if (Number(p1input.value)) {
 
@@ -53,7 +54,7 @@ p1btn.addEventListener("click", () => {
             }
 
         } else {
-            errorOutput.innerHTML = "Please, Give a Number"
+            errorOutput.innerHTML = "Please, Give a Number."
         }
     }
 })
@@ -66,7 +67,7 @@ p1btn.addEventListener("click", () => {
 p2btn.addEventListener("click", () => {
 
     if (p2input.value == "") {
-        errorOutput.innerHTML = "Please, Give a Number"
+        errorOutput.innerHTML = "Please, Give a Number."
     } else {
         if (Number(p2input.value)) {
 
@@ -85,7 +86,7 @@ p2btn.addEventListener("click", () => {
                         chancesCount = 5
                         chancesCountDisplay()
                     } else {
-                        errorOutput.innerHTML = "Your guess was wrong."
+                        errorOutput.innerHTML = "Your guess was wrong. Try again."
                     }
 
                 } else {
@@ -101,7 +102,7 @@ p2btn.addEventListener("click", () => {
             }
 
         } else {
-            errorOutput.innerHTML = "Please, Give a Number"
+            errorOutput.innerHTML = "Please, Give a Number."
         }
     }
 
@@ -115,7 +116,7 @@ p2btn.addEventListener("click", () => {
 p3btn.addEventListener("click", () => {
 
     if (p3input.value == "") {
-        errorOutput.innerHTML = "Please, Give a Number"
+        errorOutput.innerHTML = "Please, Give a Number."
     } else {
         if (Number(p3input.value)) {
 
@@ -134,7 +135,7 @@ p3btn.addEventListener("click", () => {
                         chancesCount = 5
                         chancesCountDisplay()
                     } else {
-                        errorOutput.innerHTML = "Your guess was wrong."
+                        errorOutput.innerHTML = "Your guess was wrong. Try again."
                     }
 
                 } else {
@@ -150,7 +151,7 @@ p3btn.addEventListener("click", () => {
             }
 
         } else {
-            errorOutput.innerHTML = "Please, Give a Number"
+            errorOutput.innerHTML = "Please, Give a Number."
         }
     }
 
@@ -164,7 +165,7 @@ p3btn.addEventListener("click", () => {
 p4btn.addEventListener("click", () => {
 
     if (p4input.value == "") {
-        errorOutput.innerHTML = "Please, Give a Number"
+        errorOutput.innerHTML = "Please, Give a Number."
     } else {
         if (Number(p4input.value)) {
 
@@ -191,7 +192,7 @@ p4btn.addEventListener("click", () => {
                         playerName.innerHTML = ""
                         displayCtrl("all")
                     } else {
-                        errorOutput.innerHTML = "Your guess was wrong."
+                        errorOutput.innerHTML = "Your guess was wrong. Try again."
                     }
 
                 } else {
@@ -218,7 +219,7 @@ p4btn.addEventListener("click", () => {
             }
 
         } else {
-            errorOutput.innerHTML = "Please, Give a Number"
+            errorOutput.innerHTML = "Please, Give a Number."
         }
     }
 
