@@ -49,7 +49,7 @@ p1btn.addEventListener("click", () => {
                 chancesCountDisplay()
             }
             else {
-                errorOutput.innerHTML = "please, Give a Number into 1-9"
+                errorOutput.innerHTML = "please, Give a Number between 1-9"
             }
 
         } else {
@@ -97,7 +97,7 @@ p2btn.addEventListener("click", () => {
                 }
 
             } else {
-                errorOutput.innerHTML = "please, Give a Number into 1-9"
+                errorOutput.innerHTML = "please, Give a Number between 1-9"
             }
 
         } else {
@@ -146,7 +146,7 @@ p3btn.addEventListener("click", () => {
                 }
 
             } else {
-                errorOutput.innerHTML = "please, Give a Number into 1-9"
+                errorOutput.innerHTML = "please, Give a Number between 1-9"
             }
 
         } else {
@@ -214,7 +214,7 @@ p4btn.addEventListener("click", () => {
                 }
 
             } else {
-                errorOutput.innerHTML = "please, Give a Number into 1-9"
+                errorOutput.innerHTML = "please, Give a Number between 1-9"
             }
 
         } else {
